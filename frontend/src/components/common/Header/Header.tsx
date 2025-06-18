@@ -8,8 +8,8 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         {/* ロゴ */}
-        <div className="logo">
-          <img src={mynavi} alt="アイコン" />
+        <div>
+          <img className="icon" src={mynavi} alt="アイコン" />
         </div>
 
         {/* ナビゲーション */}
@@ -19,8 +19,10 @@ const Header = () => {
             <li><a href="/about">会社概要</a></li>
             <li><a href="/services">サービス</a></li>
             <li><a href="/contact">お問い合わせ</a></li>
-            <button className="login-btn">ログイン</button>
-            <button className="signup-btn">新規登録</button>
+            <div className="user-menu">
+              <button className="login-btn">ログイン</button>
+              <button className="signup-btn">新規登録</button>
+            </div>
           </ul>
           
         </nav>

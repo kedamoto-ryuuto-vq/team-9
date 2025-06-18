@@ -18,17 +18,18 @@
   align-items: center;
 }
 
-/* ロゴ */
-.logo h1 {
-  margin: 0;
-  font-size: 1.5rem;
-  color: #fff;
+
+
+.icon {
+  width: 270px;
+  height: auto;
 }
 
 /* ナビゲーション */
 .nav-list {
   display: flex;
   list-style: none;
+  align-items: center;
   margin: 0;
   padding: 0;
   gap: 2rem;
@@ -37,7 +38,7 @@
 .nav-list a {
   color: rgb(71, 71, 71);
   text-decoration: none;
-  font-size: 21px;
+  font-size: 17px;
   font-weight: 500;
   transition: color 0.3s;
 }
@@ -69,7 +70,7 @@
 
 .login-btn:hover {
   background-color: white;
-  color: #333;
+  color: #007bff;
 }
 
 .signup-btn {
